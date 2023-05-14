@@ -1,0 +1,8 @@
+Lot,Trailer #,Carrier,Status,Issue,Note,Remediation
+573,SWFZ183061,SWFT,Inbound,Wrong Trailer Number,"""SWFT183061""",Documented
+654,JBHU294387,HJBI,Inbound,Trailer Not Found,Seal # 2426700,------------------------
+676,CC30757,CWAM,Inbound,Trailer Not Found,Seal # 32962156,------------------------
+678,T195390,MJMP,Empty/No Seal,Wrong Trailer Number,"""T95390""",Checked In/Out
+879,323138,CWAM,Pallet Container,Trailer Not Found,,Checked In
+1039,315373,CWAM,Empty/No Seal,Trailer Not Found,,Checked In
+1151,T22150,NBTC,Inbound,Wrong Trailer Number,"""T2210""",------------------------
