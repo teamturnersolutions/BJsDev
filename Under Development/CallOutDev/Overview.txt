@@ -1,0 +1,42 @@
+BJs CallOut WebApp
+
+The idea is to mock up a simple web form for 'Employee Call Outs' to address an issue thats been arising in the organiztion where when an employee needs to call out 
+a string of events needs to takes place to in its current state is highly inefficient and poor performing.
+
+processFlow:= { currentState() =>
+
+1. Employee calls the SCC
+2. Call gets recieved 
+	- Depending on which department employee works in:
+		A - [SCC Employee] Call gets routed to manager on duty
+			a - an email is sent to Payroll: 
+				- Employee called out
+				- Whether employee is using Sick or Personal Time 			
+		B - [non-SCC employee] Call gets routed to manager on duty 
+			a - Manager on duty sends an email notifying department head of call out
+			b - Department head then sends an email to Payroll:
+				- Employee called out
+				- Whether employee is using Sick or Personal Time 			
+}
+
+
+
+The problem that the organization is continually experiencing is that the manager on duty isn't always available, so the employee ends up needing to call several times before eventually getting through to notify management.  When management recieve's the call, They need to stop what they're doing to answer and then to send an email to the department lead of the employee who is calling out. The current state of the process is poor overall and leads to a sense of frustration for everyone involved. Prime candidate for automation. 
+
+processFlow = { newState() =>
+
+1. Employee opens app, Fills out form, and then Submits
+2. Manager on Duty, Department lead is notified that { employee } called out and Payroll is notified that { employee } called out and out using { timeType }
+}
+	              Architecture
+- Simple 'Contact Us' type web structure
+- Host Statically on S3
+-  Lambda for the compute
+- Use SES for the communications 
+- API Gateway for the guts 
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+Lot,Trailer #,Carrier,Status,Issue,Note,Remediation
+120,416070,CWAM,Pallet Container,Trailer Not Found,,Checked In
+152,316757,CWAM,Pallet Container,Trailer Not Found,,Checked In
+159,91829,CWAM,Pallet Container,Wrong Trailer Number,"""91879""",Checked In/Out
+455,532391,CWAM,Empty/No Seal,Trailer Not Found,,Checked In
+506,642,BOZI,Empty/No Seal,Wrong Trailer Number,"""BR1642""",Checked In/Out
+500,316504,CWAM,Empty/No Seal,Trailer Not Found,,Checked In
+676,CC30757,CWAM,Inbound,Trailer Not Found,,------------------------
+1081,653866,MMQP,Empty/No Seal,Trailer Not Found,,Checked In
+1151,T22150,NBTC,Inbound,Wrong Trailer Number,"""T2210""",------------------------
+7007,SNLU220447,SCDS,Empty/No Seal,Trailer Not Found,,Checked In
