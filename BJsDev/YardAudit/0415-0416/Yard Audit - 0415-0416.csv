@@ -1,6 +1,0 @@
-Lot,Trailer #,Carrier,Status,Issue,Note,Remediation
-406,561859,PGDB,Inbound,Wrong Trailer Number,"""531859""",Documented
-520,EMHU275909,MXLV,Inbound,Wrong Trailer Number,"""MHLU275909""",Documented
-654,JBHU294387,HJBI,Inbound,Trailer Not Found,,Lot Closed/Investigating
-676,CC30757,CWAM,Inbound,Trailer Not Found,,------------------------
-1151,T22150,NBTC,Inbound,Wrong Trailer Number,"""T2210""",------------------------
