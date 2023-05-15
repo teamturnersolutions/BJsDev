@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>BJs Wholesale Club Call Out Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div>
+    <a href="index.html">Notifcation Center</a>    
+  </div>
+    <h1>Call Out Form</h1>
+    
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+          <label for="name">Enter Your Name: <input id="name" name="name" type="text" required /></label>          
+          <label for="contact-info">Employee Number: <input id="contact-info" name="contact-info" type="contact-info" pattern="[0-9]{6,}" required /></label>
+          <label for="phone-number">Enter A Contact Number: <input id="phone-number" name="phone-number" type="phone-number" required /></label>          
+          <label for="date">Enter Date: <input id="date" name="date" type="date" required /></label>          
+          <label for="shift">Shift?
+            <select id="shift" name="shift">
+              <option value="">(select one)</option>
+              <option value="1">1st Shift</option>
+              <option value="2">2nd Shift</option>
+              <option value="3">3rd Shift</option>
+            </select>
+            <label for="department">What Department are you in?
+                <select id="department" name="department">
+                  <option value="">(select one)</option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+            <label for="time-type"><input id="sick-time-type" type="radio" name="time-type" class="inline" />I am using Sick Time</label>
+            <label for="time-type"><input id="per-time-type" type="radio" name="time-type" class="inline" />I am using Personal Time</label>
+              </label>
+              <label for="bio">Comment:
+                <textarea id="comment" name="comment" rows="3" cols="30" placeholder="I am calling out because I have diarrhea and I am shitting out sideways last nights chinese food out like a possessed firehose..."></textarea>
+              </label>
+        </fieldset>        
+        <fieldset>          
+          
+        </fieldset>
+        <input id="acknowledgement" type="checkbox" required name="acknowledgement" class="inline" /><a>I acknowledge that I must be within the 2-Hour window to submit</a>
+        <input type="submit" value="Submit" />
+      
+      </form>
+    </body>
+  </html>
