@@ -12,3 +12,7 @@ This is a very simple attempt at addressing an enterprise issue that has lead to
 
 ## Version 4
 - A full-development model to showcase
+
+## Version 5
+- A working application that it resilent and 100% accurate, There cannot be any lost data. At the enterprise level reduntancy's need to be in place ensuring that no notifications are missed.
+-- Explore and test thoroughly until a deliverable model is built 
