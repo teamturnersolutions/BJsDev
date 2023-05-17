@@ -16,7 +16,7 @@ This is a very simple attempt at addressing an enterprise issue that has lead to
 - Testing different methods to pass the information and working out the kinks for transpo
 
 ## Version 4
-- A full-development model to showcase
+- A full-development model to showcase deployed using AWS Amplify 
 
 ## Version 5
 - A working application that it resilent and 100% accurate, There cannot be any lost data. At the enterprise level reduntancy's need to be in place ensuring that no notifications are missed.
