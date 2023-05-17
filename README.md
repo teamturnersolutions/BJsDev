@@ -1,10 +1,10 @@
 # BJs Notification Portal
 This is a very simple attempt at addressing an enterprise issue that has lead to large amounts of confusion and wasted hours of productivity.<br>
-## Version 1
+## Version 1 MOCK_UP
 - Portal that leads to 2 different Basic contact form structures
 <br>Call Out<br>Late Notification
 
-## Version 2
+## Version 2 POC
 ### Version 2.0
 - Has a backend that recieves the data and passes it to email using js and email api
 ### Version 2.1
