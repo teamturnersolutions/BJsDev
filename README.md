@@ -5,7 +5,7 @@ This is a very simple attempt at addressing an enterprise issue that has lead to
 <br>Call Out<br>Late Notification
 
 ## Version 2
-### Version 2.1
+### Version 2.0
 - Has a backend that recieves the data and passes it to email using js and email api
 ### Version 2.1
 - AWS backend that uses AWS SES 
