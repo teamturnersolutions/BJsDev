@@ -5,7 +5,12 @@ This is a very simple attempt at addressing an enterprise issue that has lead to
 <br>Call Out<br>Late Notification
 
 ## Version 2
-- Has a backend that recieves the data and passes it to email
+### Version 2.1
+- Has a backend that recieves the data and passes it to email using js and email api
+### Version 2.1
+- AWS backend that uses AWS SES 
+### Version 2.2
+- AWS backend that uses API Gateway, Lambda, SES 
 
 ## Version 3
 - Testing different methods to pass the information and working out the kinks for transpo
