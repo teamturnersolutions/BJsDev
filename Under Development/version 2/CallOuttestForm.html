@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>BJs Wholesale Club Notification Portal</title>
+</head>
+<body>
+    <a href="index.html">Notification Portal</a>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false">
+            <h1>Call Out</h1>           
+            <label for="name">Name:<input type="text" id="name" placeholder="Your Name Here" autocomplete="on"></label>
+            <label for="email">Email:<input type="email" id="email" placeholder="You Email Here" autocomplete="on"></label>
+            <label for="date">Enter Date:<input id="date" type="date" autocomplete="on" required /></label>
+            <label for="department">What Department are you in?
+                <select id="department">
+                  <option value="">(select one)</option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+            <label for="shift">Shift:
+            <select id="shift">
+                <option value="">(select one)</option>
+                <option value="1">1st Shift</option>
+                <option value="2">2nd Shift</option>
+                <option value="3">3rd Shift</option>
+              </select>
+            <label for="comment">Comment:<textarea id="comment" cols="30" rows="10" placeholder="I am calling out because..." autocomplete="on"></textarea></label>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "teamturner2.0@gmail.com",
+                Password : "1A7F0D2C7D2FEE68B7BBBD3F26C3754D9DC2",
+                To : "teamturner2.0@gmail.com",
+                From : document.getElementById("email").value,
+                Subject : "Employee Call Out",
+                Body : "Employee: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Date: " + document.getElementById("date").value
+                    + "<br> Message: " + document.getElementById("message").value
+                    + "<br> Shift: " + document.getElementById("shift").value
+                    + "<br> Department: " + document.getElementById("department").value
+            }).then(
+              message => alert(message)
+            );
+        }
+  </script>
+</body>
+</html>
