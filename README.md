@@ -18,8 +18,10 @@ This is a very simple attempt at addressing an enterprise issue that has lead to
 - Testing/Debugging, Working out all the kinks to push to prod
 
 ## Version 4 PROD
-- A full-development model to showcase deployed using AWS Amplify 
+- A fully deployable model to showcase Application
 
 ## Version 5 FINAL
-- A working application that it resilent and 100% accurate, There cannot be any lost data. At the enterprise level reduntancy's need to be in place ensuring that no notifications are missed.
+- A working application that it resilent and dependable, There cannot be any lost data. At the enterprise level reduntancy and error checking needs to be in place ensuring that no notifications are missed.
 * Explore and test thoroughly until a deliverable model is built 
+
+Mission Complete
